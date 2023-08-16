@@ -7,3 +7,40 @@
     font-family: 'Poppins', sans-serif;
 }
 
+header nav
+{
+    font-size: 28px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list, .nav-list2
+{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list li, .nav-list2 li
+{
+    padding: 30px;
+    list-style: none;
+}
+
+.nav-list li a, .nav-list2 li a
+{
+    text-decoration: none;
+    color:#000;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.logo
+{
+    width: 10%;
+    padding-top: 5px;
+}
