@@ -7,13 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
 header nav
 {
-    font-size: 28px;
-    width: 100%;
+    font-size: 22px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 .nav-list, .nav-list2
@@ -43,4 +47,5 @@ html {
 {
     width: 10%;
     padding-top: 5px;
+    margin-left: 20px;
 }
