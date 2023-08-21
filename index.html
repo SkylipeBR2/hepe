@@ -1,33 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hepe Eletronicos</title>
+    <title>VIJH</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/bcf72d1d5f.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <section class="nav">
-    <header>
-        <nav>
-            <a href="logo">
-                <img src="samsung.svg" alt="" class="logo">
-            </a>
-        <ul class="nav-list">
-            <li><a href="#">Telefone</a></li>
-            <li><a href="#">Televisão</a></li>
-            <li><a href="#">Acessório</a></li>
-            <li><a href="#">Tablet</a></li>
-        </ul>
-        <ul class="nav-list2">
-            <li><a href="#">Suporte</a></li>
-            <li><a href="#"><ion-icon name="cart-outline"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
-        </ul>
-    </nav></header>
+    <section class="hero">
+        <header>
+            <li>
+                <img class="img1" src="samsung.svg" alt="">
+                <ul><a class="aheader" href="#">HOME</a></ul>
+                <ul><a class="aheader" href="#terciaria">TELEFONE</a></ul>
+                <ul><a class="aheader" href="#terciaria">TV</a></ul>
+                <ul><a class="aheader" href="#jhon">TABLETS</a></ul>
+                <ul><a class="aheader" href="#quarta">ELETRONICOS</a></ul>
+                <nav class="nav">
+                    <p><a class="amobile" href="#">Home</a></p>
+                    <p><a class="amobile" href="#terciaria">Feminino</a></p>
+                    <p><a class="amobile" href="#terciaria">Masculino</a></p>
+                    <p><a class="amobile" href="#quarta">Sobre</a></p>
+                    <p><a class="amobile" href="#jhon">Contato</a></p>
+                </nav>
+                <button class="burguer"><i class="fa-solid fa-bars"></i></button>
+        <button class="fechar-burguer"><i class="fa-solid fa-x"></i></button>
+                <button id="buttonheader" class="btnmodal"><i class="fa-solid fa-user fa-fw"></i></button>
+                <div class="janelamodal">
+                    <h1 class="main">LOGIN</h1>
+                    <hr>
+                    <form action="#">
+                        <label for="Login">E-mail</label>
+                        <input type="text" id="login" class="clogin" placeholder="Coloque seu E-mail aqui."
+                            title="Nome">
+                        <!--o "required" faz ser obrigatorio responder o campo-->
+                        <br>
+                        <label for="senha">Senha</label>
+                        <!-- <p>Peso:</p> -->
+                        <input type="text" id="senha" class="csenha" placeholder="Coloque aqui sua senha." title="Senha"
+                            required="Insira sua senha">
+                        <!-- o "placeholder faz o campo ter um exemplo do que a pessoa deve prencher" -->
+                        <input type="button" class="btn principal2" value="Entrar">
+                        <!-- <input type="submit" value=""> -->
+                    </form>
+                    <button class="close"> x </button>
+                </div>
+                <div class="overlay"></div>
+                <button class="buttonheader"><i class="fa-solid fa-cart-shopping fa-fw"></i></button>
+                <button class="buttonheader"><i class="fa-solid fa-magnifying-glass fa-fw"></i></button>
+               
+            </li>
+        </header>
+
+        <div class="buttonimg">
+            <img class="img2" src="IMG_7117.jpg" alt="">
+        </div>
+
     </section>
-    <section></section>
+    <section id="carrossel">
+        <div class="slider">
+            <img class="itemslider visivel" src="pexels-godisable-jacob-1253413.jpg" alt="Imagem do Carrossel">
+            <img class="itemslider" src="pexels-godisable-jacob-932417.jpg" alt="Img2">
+            <img class="itemslider" src="pexels-maryia-plashchynskaya-3615455.jpg" alt="Img3">
+            <img class="itemslider" src="pexels-rafael-barros-2608344.jpg" alt="Img4">
+            <blockquote class="test">
+                <div class="blocotextocarrosel">
+                    <p class="test-texto text-focus-in">O que está na moda agora é usar a roupas que te façam se sentir bem!
+                    </p>
+                    <p class="test-autor text-focus-in">A partir de R$50,00</p>
+                    <p class="test-job text-focus-in">A <strong>VIJH</strong> é a maior rede de moda e uma das maiores redes
+                        de vestuário masculino, feminino e infantil do Brasil. Com menos de um ano de mercado, a marca
+                        construiu uma forte relação com o povo brasileiro, acompanhando a evolução de suas necessidades e
+                        anseios. A proposta da marca é ser íntima e cúmplice das clientes, oferecendo a elas acesso a uma
+                        moda de qualidade, versátil e com boa relação custo-benefício, respeitando sua diversidade e
+                        considerando as tendências internacionais. Ao longo de sua história, o <strong>VIJH</strong> é
+                        conhecida e reconhecida por seu slogan "sua melhor razão.".</p>
+                </div>
+                <div class="pontos">
+                    <button class="ponto cheio">&nbsp;</button>
+                    <button class="ponto">&nbsp;</button>
+                    <button class="ponto">&nbsp;</button>
+                    <button class="ponto">&nbsp;</button>
+                </div>
+            </blockquote>
+            <i class="fa-solid fa-angle-right navarrow right"></i>
+            <i class="fa-solid fa-angle-left navarrow left"></i>
+        </div>
+
+    </section>
+
+    <section id="terciaria">
+        <div id="calc" class="container">
+            <div class="caixa c1"><img src="pexels-godisable-jacob-914668.jpg" alt="">
+                <h4 class="texto1">FEMININO</h4>
+            </div>
+            <div class="caixa c2"><img class="imgg2" src="pexels-victoria-borodinova-1564828.jpg" alt="">
+                <h4 class="texto2">INFANTIL</h4>
+            </div>
+            <div class="caixa c3"><img class="img3" src="pexels-shvets-production-9775888.jpg" alt="">
+                <h4 class="texto3">MASCULINO</h4>
+            </div>
+            <div class="caixa c4"><img src="pexels-polina-tankilevitch-5585841.jpg" alt="">
+                <h4 class="texto4">PROMOÇÕES</h4>
+            </div>
+            <div class="caixa c5"><img src="pexels-verschoren-maurits-3695576.jpg" alt="">
+
+                <h4 id="jhon" class="texto5">CALÇADOS</h4>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-arrow-up"></i></button>
+    </section>
+
+    <section id="quarta">
+         
+        <div class="heloisa socio"><img src="icon/icon-lolô.png" alt="">
+            <h3 id="lolo">Heloisa</h3>
+            <p>Olá! Me chamo <strong>Heloisa</strong>, tenho 17 anos e sou um programadora Front-End. Sou uma das sócias idealizadores e fundadoras da <strong>VIJH</strong>. Sou a CEO da <strong>VIJH</strong> e responsável pela parte administrativa da nossa marca, desde o pagamento de funcionários a compra de material.  </p>    
+        </div>
+
+        <div class="vini socio" ><img src="icon/icon-vicio.png" alt="">
+            <h3 id="vicio">Vinicius</h3>
+            <p>Hey! Eu sou <strong>Vinicius</strong>, tenho 18 anos e sou um programador Front-End. Também sou um dos sócios idealizadores e fundadores da <strong>VIJH</strong>. Sou Vice-CEO da <strong>VIJH</strong> e o responsável por fechar contratos com outras marcas na criação de colab de nossos produtos. </p>
+        </div>
+        
+        <div class="jhon socio" > <img src="icon/icon-jhon.png" alt="">
+            <h3>Jhonata</h3>
+            <p>Eu me chamo <strong>Jhonata</strong>, tenho 16 anos e sou um programador Front-End. Sou um dos sócios e fundadores da <strong>VIJH</strong>. Sou responsável pela fabricação, supervisão e envios das nossas peças para nossos clientes.</p>
+        </div>
+        
+        <div class="isa socio" ><img src="icon/icon-isa.png" alt="">
+            <h3 id="isa">Isabela</h3>
+            <p>Oii ! Eu sou a <strong>Isabela</strong>, tenho 17 anos e sou um programadora Front-End. Sou uma das sócias e fundadoras da <strong>VIJH</strong>. Minha função é ser a Gerente de Marketing da <strong>VIJH</strong>, fico responsável por toda a parte de divulgação da nossa marca nas mídias sociais e comerciais.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div id="gridd">
+            <div class="divfooterimg">
+                <img class="imgfooter" src="logo_VIJH-removebg.png" alt="">
+            </div>
+            <div class="containerlist">
+                <div class="testeflex">
+                    <h2 class="column">VIJH</h2>
+                    <p id="blocoinf">O nome da nossa marca <strong>VIJH</strong> vem do indiano e significa
+                        <strong>Razão</strong>. E não é por acaso que escolhemos esse nome para ela. A principal razão
+                        para termos nos juntado e dado o pontapé inical neste novo projeto, é porque percebemos que não
+                        existe uma marca com as mesmas propostas da <strong>VIJH</strong>, com foco em trazer o conforto
+                        e a modernidade em nossos produtos. Uma marca com produtos de qualidade há um preço acessivel,
+                        com frete para todo o Brasil, sempre buscando trazer inovações nas nossas peças de vestiário e
+                        calçados.
+                    </p>
+                </div>
+            </div>
+            <div class="containerlist1">
+                <div class="testeflex1">
+                    <h2 class="column1">NOMES</h2>
+                    <ul class="listcolumn2">
+                        <li><a href="#jhon">Isabela Araujo</a></li>
+                        <br>
+                        <li><a href="#jhon">Heloisa Mendes</a></li>
+                        <br>
+                        <li><a href="#jhon">Jhonata Costa</a></li>
+                        <br>
+                        <li><a class="" href="#jhon">Vinicius Alves</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="containerlist2">
+                <div class="testeflex2">
+                    <h2 class="column2">CATEGORIAS</h2>
+                    <ul class="listcolumn3">
+                        <li><a href="#calc">Feminino</a></li><br>
+                        <li><a href="#calc">Masculino</a></li><br>
+                        <li><a href="#calc">Infantil</a></li><br>
+                        <li><a href="#calc">Calçados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="flexbottom">
+            <ul class="socials">
+                <li><a class="abottom" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="abottom" href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                <li><a class="abottom" href="#"><i class="fa-brands fa-github-alt"></i></a></li>
+                <li><a class="abottom" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+
+            <p>copyright &copy;2022 vijh. </p>
+        </div>
+        </div>
+    </footer>
+
 </body>
+<script src="script.js"></script>
+
 </html>
